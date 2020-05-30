@@ -245,7 +245,7 @@ function makeResponsive() {
             .attr("y", 40)
             .attr("value", "income") // value to grab for event listener
             .classed("inactive", true)
-            .style("font-weight", "bold")
+            // .style("font-weight", "lighter")
             .style("color", "grey")
             .text("Income (Median)");
 
@@ -254,7 +254,7 @@ function makeResponsive() {
             .attr("y", 60)
             .attr("value", "age") // value to grab for event listener
             .classed("inactive", true)
-            .style("font-weight", "bold")
+            // .style("font-weight", "lighter")
             .text("Age (Median)");
 
 
@@ -278,7 +278,7 @@ function makeResponsive() {
             .attr("y", 0 - 40)
             .attr("transform", "rotate(-90)")
             .classed("inactive", true)
-            .style("font-weight", "bold")
+            // .style("font-weight", "lighter")
             .attr("dy", "1em")
             .attr("value", "obesity") // value to grab for event listener
             .text("Obese (%)");
@@ -287,7 +287,7 @@ function makeResponsive() {
             .attr("x", 0)
             .attr("y", 0 - 60)
             .attr("transform", "rotate(-90)")
-            .style("font-weight", "bold")
+            // .style("font-weight", "lighter")
             .classed("inactive", true)
             .attr("dy", "1em")
             .attr("value", "smokes") // value to grab for event listener
